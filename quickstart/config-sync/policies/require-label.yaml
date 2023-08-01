@@ -41,6 +41,7 @@ spec:
           - ""
         kinds:
           - Pod
+          - Namespace
     excludedNamespaces:
       - kube-system
       - kube-public
