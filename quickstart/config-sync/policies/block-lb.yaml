@@ -3,6 +3,7 @@ kind: K8sBlockLoadBalancer
 metadata:
   name: block-load-balancer
 spec:
+  enforcementAction: warn
   match:
     excludedNamespaces:
     - ingress-nginx-private
