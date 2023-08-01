@@ -27,7 +27,7 @@ metadata:
         minimumTemplateLibraryVersion: '1.11.1'
       }"
 spec:
-  enforcementAction: dryrun
+  # enforcementAction: dryrun
   match:
     kinds:
       - apiGroups:
